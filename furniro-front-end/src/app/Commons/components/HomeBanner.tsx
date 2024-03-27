@@ -1,8 +1,10 @@
-import { backgroundData } from "../data/HomeData";
+import Image from "next/image";
+import FurnitureRoom from "../images/background.png";
+
 const HomeBanner = () => {
   return (
     <div>
-      <img className="w-full h-full" src="backgroundData" alt="" />
+      <Image className="w-full h-full" src={FurnitureRoom} alt="Background" />
     </div>
   );
 };
