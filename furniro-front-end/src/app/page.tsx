@@ -1,4 +1,6 @@
-import Header from "./header/components/Header";
+// Components
+import { HomeBanner } from "./Commons";
+
 export default function Home() {
-  return <Header />;
+  return <HomeBanner />;
 }
